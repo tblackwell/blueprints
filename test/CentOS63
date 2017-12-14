@@ -1,0 +1,20 @@
+  'test custom 1 ':
+    default: TEST  overridable
+    required: false
+    secured: false
+    visible: false
+  test encrypted:
+    default: 'anothertest'
+    required: false
+    secured: true
+    visible: false
+  test inserted:
+    default: inserted some value
+    required: false
+    secured: false
+    visible: false
+  test inserted enc value:
+    default: 'testencrypt'
+    required: true
+    secured: true
+    visible: true

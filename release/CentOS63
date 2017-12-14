@@ -1,0 +1,25 @@
+  'prod custom 1 ':
+    default: prod  overridable
+    required: false
+    secured: false
+    visible: false
+  prod encrypted:
+    default: 'anotherprod'
+    required: false
+    secured: true
+    visible: false
+  prod inserted:
+    default: inserted some value
+    required: false
+    secured: false
+    visible: false
+  prod inserted enc value:
+    default: 'prodencrypt'
+    required: true
+    secured: true
+    visible: true
+  somethingunique:
+    default: created a value
+    required: false
+    secured: false
+    visible: false
